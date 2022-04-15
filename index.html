@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>Weather app</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="overlay"></div>
+        <header><i class='bx bx-left-arrow-alt'></i>Weather app</header>
+        <section class="input-part">
+            <p class="info-text"></p>
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <div class="separator"></div>
+            <button>Get Device Location</button>
+        </section>
+        <section class="weather-part">
+            <img src="" alt="">
+            <div class="temp">
+                <span class="nump"></span>
+                <span class="deg">°</span>c
+            </div>
+            <div class="weather"></div>
+            <div class="location">
+                <i class='bx bx-map'></i>
+                <span></span>
+            </div>
+            <div class="bottom-detalies">
+                <div class="column feel">
+                    <i class='bx bxs-thermometer'></i>
+                    <div class="detalies">
+                        <div class="temp">
+                            <span class="nump-2">17</span>
+                            <span class="deg">°</span>c
+                        </div>
+                        <p>Feels like</p>
+                    </div>
+                </div>
+                
+                <div class="column humidity">
+                    <i class='bx bxs-droplet-half'></i>
+                    <div class="detalies">
+                        <span class="nump">84%</span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                
+            </div> 
+        </section>
+    </div>
+<script src="main.js"></script>    
+</body>
+</html>
